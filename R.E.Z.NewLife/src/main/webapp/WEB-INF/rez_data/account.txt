@@ -1,0 +1,2 @@
+kitty@rez.com|123rez|1996-11-11|凱蒂貓|凱蒂|0912345678|kitty@rez.com|台北市|rez_data/images/kitty.jpg|kitty.jpg|member|2021-08-25 00:00:00|null
+rez@rez.com|rezrez|1996-11-11|管禮元|管理員|0912345678|rez@rez.com|台北市|rez_data/images/micky.jpg|micky.jpg|administrator|2021-08-25 00:00:00|null

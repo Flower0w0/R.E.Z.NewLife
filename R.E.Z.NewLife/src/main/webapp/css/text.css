@@ -1,0 +1,209 @@
+/*大頭照START*/
+
+/*大頭照的"圓"圖片部分*/
+.TgSfgo {
+width: 100%;
+height: 100%;
+background-position: 50%;
+background-size: cover;
+background-repeat: no-repeat;
+cursor: pointer;
+}
+
+/*大頭照方框設定圓框*/
+.TgSfgo,.YMBffn {
+  border-radius: 50%;
+}
+
+/*預覽圓圖片的div*/
+._1FzaUZ {
+  height: 6.25rem;
+  width: 6.25rem;
+  margin: 1.25rem 0;
+  position: relative;
+}
+
+/*預覽圓圖片的div+外層div*/
+._1FzaUZ,
+.X1SONv {
+  -webkit-align-items: center;
+  align-items: center;
+  display: -webkit-flex;
+}
+
+/*預覽圓圖片的div"的"外層div*/
+.X1SONv {
+  flex-direction: column;
+}
+
+/*大頭貼最外層DIV*/
+._1aIEbS {
+  justify-content: center;
+  width: 17.5rem;
+}
+
+/*選擇大頭下方文字方塊*/
+._3Jd4Zu {
+  margin-top: 0.75rem;
+  display: block;
+}
+/*選擇大頭下方文字方塊div文字屬性*/
+._3UgHT6 {
+  color: #999;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+/*大頭照END*/
+
+
+/*右側大外框div標題 我的檔案 */
+
+/*我的檔案 標題div底下的 文字屬性*/
+._2w2H6X {
+  border-bottom: 0.0625rem solid #efefef;
+  padding: 1.125rem 0;
+}
+/*我的檔案 文字屬性*/
+._3iiDCN {
+  margin: 0;
+  font-weight: 500;
+  line-height: 1.5rem;
+  text-transform: capitalize;
+  color: #333;
+}
+/*管理你的檔案以保護你的帳戶 文字屬性*/
+.TQG40c {
+  margin-top: 0.1875rem;
+  font-size: 0.875rem;
+  line-height: 1.0625rem;
+  color: #555;
+}
+/*使用者帳號.姓名...*/
+._1iNZU3 {
+  display: flex;
+}
+/*右側 整個div form間距*/
+._3BlbUs {
+  margin-bottom: 1rem;
+}
+/*右側 左分類 標題div 文字效果*/
+._2PfA-y {
+  width: 20%;
+  text-align: right;
+  color: rgba(85, 85, 85, 0.8);
+  text-transform: capitalize;
+  overflow: hidden;
+}
+/*右側 右側全div form間距  *查無._3qXkYh._1LvCQN */
+._1LvCQN,
+._2_JugQ,
+._3qXkYh 
+{
+  width: 80%;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-left: 1.25rem;
+}
+/*右側 右側div 間距 帳號.mail.手機號碼 */
+._2bdFDW {
+  display: flex;
+}
+/*右側 右側div 部分屬性 帳號.mail.手機號碼*/
+._3S9myJ {
+  font-size: 0.875rem;
+  color: #333;
+}
+/*右側 右側div 帳號.mail.手機號碼 超連結"變更" 屬性*/
+._2CLMxo {
+  border: 0;
+  outline: none;
+  background: none;
+  color: #05a;
+  font-size: 0.8125rem;
+  text-transform: capitalize;
+  text-decoration: underline;
+}
+/*賣場名稱 姓名 輸入欄 屬性*/
+.input-with-validator {
+  display: flex;
+  background-color: #fff;
+  /*四角圓框*/
+  border-radius: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.14);
+  /* -moz-box-sizing: border-box; */
+  /* box-sizing: border-box; */
+  box-shadow: inset 0 2px 0 0 rgba(0, 0, 0, 0.5);
+  height: 40px;
+  padding: 10px;
+}
+
+/*輸入欄 屬性*/
+.input-with-validator input {
+  -webkit-flex: 1;
+  -moz-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  font-size: 14px;
+  background: transparent;
+  outline: none;
+  box-shadow: none;
+  border: 0;
+}
+/*輸入欄 閃爍*/
+.input-with-validator:hover {
+  box-shadow: inset 0 2px 3px 0 rgba(0, 0, 0, 0.05);
+}
+
+/*生日右側整個div*/
+
+/*生日右側單個div*/
+._2w5iZe,
+._2w5iZe .shopee-dropdown {
+  display: flex;
+}
+/*生日右側單個div 2*/
+
+
+/*儲存按鈕 間距*/
+._31PFen {
+  margin-bottom: 3%;
+  text-align: center;
+}
+._31PFen button[type="button"]{
+    /*滑鼠手指*/
+    cursor: pointer;
+    /*四角圓滑*/
+    border-radius: 30%;
+    border: 1px solid rgb(255, 255, 255);
+    transition: all .5s linear;
+    background-color: #7c7c7c; color: rgb(252, 252, 252);
+  }
+/*滑鼠觸碰後閃爍*/
+._31PFen button[type="button"]:hover {
+  background-color:#1a4f91;
+  border-right: 3px solid #d1d1d1;
+  transition: 0.3s;
+}
+/*指定變形變色*/
+._31PFen button[type="button"]:focus {
+  border:rgb(0, 195, 255);
+  background-color: #ffffff; color: rgb(0, 0, 0);
+    transition: 0.5s;
+}
+
+/*右側整個div+大頭貼外框div*/
+._1aIEbS,
+.goiz2O {
+  display: flex;
+}
+/*右側整個div*/
+.goiz2O {
+  flex-direction: row;
+  padding-top: 1rem;
+}
+/*不包含我的檔案標題 下方整個div*/
+.pJout2 {
+  flex: 1;
+  padding-right: 3.125rem;
+}
+/*選擇圖片*/

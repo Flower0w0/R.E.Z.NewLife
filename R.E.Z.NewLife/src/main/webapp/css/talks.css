@@ -1,0 +1,244 @@
+.b-tags_items a{
+    display: block;
+    padding: 8px 4px;
+    border-radius: 3px;
+    background: #FFF;
+    font-size: 13px;
+    line-height: 1.2;
+    text-align: center;
+    -webkit-box-shadow: 0 1px 3px 0 rgb(0 0 0 / 15%);
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 15%);
+    width: 100%;
+    border: 1px solid #8895B3;
+    color: royalblue;
+    text-decoration:none;
+    margin-top: 5%;
+}
+.b-tags_items a:hover{
+    background-color: #8895B3;
+    transform: 0.5;
+}
+
+.b-tags_items{
+    /* float: left; */
+    display: inline-block;
+    /* padding: 2px 3px; */
+    /* width: 9.09%; */
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    
+    
+}
+
+.b-tags{
+    list-style: none;
+    margin: 1% 0 0 -3%;
+    grid-column: 3/4;
+    grid-row: 1/2;
+    
+}
+
+.talk{
+    display: grid;
+    grid-template-columns: 1fr 1fr 60% 1fr 1fr;
+    grid-template-rows: 20% 80%;
+}
+
+.u2{
+    margin-top: 0.5%;
+    grid-row: 2/3;
+    grid-column: 3/4;
+}
+
+/* main2 */
+.container-fluid{
+    /* background: #2660A4; */
+    background: #00439c;
+   
+    
+    z-index: 999;
+    
+
+    
+}
+
+/* .btn{
+    background-color:#2660A4; 
+    border: #2660A4; 
+    margin: -10px;
+    color: #fff;
+} */
+
+/* .footer{
+    background: #F8F0FB;
+    margin-top: 2px;
+    position: fixed;
+    
+    z-index: 999999999999999;
+    bottom: 0;
+    width: 100%;
+   
+}
+
+
+/* 版權字樣 */
+/*
+.copyright-text {
+    margin: 20px;
+    color: #BDC2BF;
+} */
+
+/* .footer{
+    margin-top: 2px;
+    position: fixed;
+    z-index: 999999999999999; 
+    bottom: 0;
+    width: 100%;
+}
+
+.inner{
+    background: #FFFF82;
+}*/
+
+/* 版權字樣 */
+/* .copyright-text {
+    padding-top: 10px;
+    color: #676968;
+}
+
+.copyright-text a:hover {
+    text-decoration: underline;
+} */
+
+.cart_icon{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    /* border: 1px solid red; */
+    margin: 10px 200px 0 200px;
+}
+.cart_icon i{
+    grid-row: 1/1;
+    grid-column: 7/8;
+    color: black;
+    font-size: 30px;
+}
+
+/* 網格 */
+.product_detail{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr ;
+    /* border: 1px dashed #BDC2BF; */
+    /* 上右下左 */
+    margin: 0px 200px 200px 200px;   
+
+}
+.breadcrumb_1{
+    grid-column: 1/5;
+    grid-row: 1/2;
+    /* background-color: red; */
+    margin-bottom: 200px;
+    
+}
+/* 麵包屑前兩個 */
+.breadcrumb_1 nav ol li a{
+    color: #fff;
+
+}
+/* 麵包屑當前頁面 */
+.breadcrumb_1 nav ol :last-child{
+    color: #fff;
+}
+
+
+/* 主要商品圖 */
+.main_img{
+    grid-row: 2/5;
+    grid-column: 1/4;
+    margin-top: -200px;
+    margin-left: 50px;
+}
+
+.game_title{
+    grid-row: 2/5;
+    grid-column: 3/5;
+    /* background-color: yellowgreen; */
+    margin-top: -200px;
+    margin-left: -50px;
+}
+
+.game_title ul{
+    color: #fff;
+}
+/* 商品描述區塊 */
+.product_detail_1{
+    display: grid;
+    border: 1px dashed #BDC2BF;
+
+    margin-top: 200px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 50px;
+}
+/* 商品描述文字 */
+.product_detail_1 h5{
+    margin: 20px;
+    color: #fff;
+}
+.product_price{
+    color: #fff;
+}
+
+
+
+/* 按鈕 */
+.btn{
+    /* background-color:#00439c; 
+    margin: -10px;
+    color: #fff; */
+    border: none;
+    /* box-shadow: none; */
+}
+
+.btn-primary:focus {
+    box-shadow: none;
+}
+
+.btn-primary:active {
+    box-shadow: none;
+}
+/* end 按鈕 */
+
+/* 會員註冊 */
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.wrapper .table{
+    grid-row: 1/2;
+    grid-column: 2/3;
+    margin: 20% 0 25% 0;
+}
+
+legend{
+    text-align: center;
+    margin-top: 3%;
+}
+
+.member_insert{
+    display: grid;
+    grid-column: 1/2;
+    grid-column: 2/3;
+    margin: 3% 0 3% 0;
+}
+
+fieldset{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    /* border: 1px solid red; */
+}
+

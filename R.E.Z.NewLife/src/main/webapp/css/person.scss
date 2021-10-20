@@ -1,0 +1,93 @@
+html,
+body {
+	height: 100%;
+}
+
+body {
+	background-color: #546377;
+	font-family: "Noto Sans TC", sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+.sideMenu {
+	width: 300px;
+	height: 100%;
+	background-color: coral;
+	border-right: 3px solid #d1d1d1;
+    /* //讓 sideMenu 裡面的元素變成橫排 */
+	display: flex; 
+    /* //讓 flex 的方向變成直排 */
+	flex-direction: column; 
+    /* //因為有 boxsizing 的關係，所以不會有 Y 軸 bar */
+	padding: 50px 0; 
+	box-shadow: 5px 0 5px rgba(#303c4d, 0.6);
+
+	form {
+        /* //讓 form 裡面的元素橫向排列 */
+		display: flex; 
+		margin: 0 10px 50px;
+		border-radius: 100px;
+		border: 1px solid #fff;
+
+		input {
+			width: 85%;
+		}
+
+		button {
+			width: 15%;
+		}
+
+		input,
+		button {
+			border: none;
+			padding: 5px 10px;
+			background-color: transparent;
+			color: #fff;
+		}
+		input:focus,
+		button:focus {
+            /* //讓表單不要有 focus 效果 */
+			outline: none;
+		}
+	}
+}
+
+nav {
+	a {
+		display: block;
+		color: #fff;
+		padding: 20px 10px;
+		position: relative;
+		font-weight: 300;
+
+		.fas {
+            /* //用 margin 的特性往右拉負值，讓文字靠左對齊 */
+			margin-right: -1.1em; 
+            /* //使圖示消失 */
+			transform: scale(0); 
+			transition: 0.3s;
+		}
+
+		&:hover .fas {
+			/* //使文字回到原來的位置 */
+            margin-right: 0em; 
+			/* //使圖示出現 */
+            transform: scale(1); 
+		}
+
+		& + a::before {
+            /* //要寫分隔線在選項中間，這邊使用偽元素呈現，使用偽元素一定要使用 content:''，不然不會有效果 */
+			content: ""; 
+			position: absolute;
+			border-top: 1px solid #ffffff;
+			left: 10px;
+			right: 10px;
+			top: 0px;
+			/* //使用絕對定位方式編寫，因為 padding已設定左右 10px，所以左右邊要推擠 10px
+			//然後使分隔線定位在 top:0px，固定在中間 */
+		}
+	}
+}
