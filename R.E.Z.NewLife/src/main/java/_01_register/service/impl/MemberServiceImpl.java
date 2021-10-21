@@ -162,7 +162,7 @@ public class MemberServiceImpl implements MemberService {
 				bean.setToken(token);
 
 				String from = "R.E.Z.NewLife";// change accordingly //你想要顯示的寄件人名稱
-				String username = "r.e.z.newlife.r.e.z@gmail.com";// change accordingly //你的google帳號
+				String username = "";// change accordingly //你的google帳號
 				String password = "";// change accordingly //你的google密碼
 
 				// Assuming you are sending email through relay.jangosmtp.net
