@@ -1,4 +1,4 @@
-package _00_init.repository.impl;
+package _00_init.dao.impl;
 
 import java.io.BufferedReader;
 import java.io.FileInputStream;
@@ -21,7 +21,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
-import _00_init.repository.BaseRepository;
+import _00_init.dao.BaseRepository;
 import _00_init.util.DBService;
 import _00_init.util.GlobalService;
 import _01_register.model.MemberBean;

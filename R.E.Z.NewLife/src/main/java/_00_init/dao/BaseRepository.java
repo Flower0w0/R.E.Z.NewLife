@@ -1,4 +1,4 @@
-package _00_init.repository;
+package _00_init.dao;
 
 public interface BaseRepository {
 	void rebuildTableAndIndex();
